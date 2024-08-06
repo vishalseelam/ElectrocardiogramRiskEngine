@@ -39,6 +39,11 @@ The Electrocardiogram Risk Engine addresses this critical issue by providing a r
 3. **Classification and Analysis:** The Vision Transformer (ViT) model analyzes ECG images, providing detailed classification and justification for each diagnosis.
 4. **Evaluation:** The engine undergoes rigorous evaluation using labeled datasets to ensure high accuracy and reliability.
 
+## Model Outputs
+![alt text](output1.jpeg)
+![alt text](output2.jpeg)
+![alt text](output3.jpeg)
+
 ## Getting Started
 
 ### Prerequisites
@@ -114,8 +119,4 @@ For more information, please contact:
 - Email: vishalseelam@example.com
 - GitHub: [vishalseelam](https://github.com/vishalseelam)
 
-### Professional Resume Description
 
-- **ECG Diagnoser Project:** Developed a machine learning model utilizing Google's Vision Transformer (ViT) to classify ECG images, achieving a 99% accuracy rate—surpassing the industry's leading 96% model accuracy.
-- **Advanced Model Integration:** Implemented Anthropic Claude SONNET via Amazon Bedrock to provide detailed ECG analysis and justification, enhancing diagnostic capabilities.
-- **Innovation in Model Training:** Fine-tuned ViT with additional attention layers, significantly improving model accuracy from 70% to 99%, demonstrating expertise in cutting-edge machine learning techniques.
