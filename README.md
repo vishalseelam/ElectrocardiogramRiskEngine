@@ -39,10 +39,12 @@ The Electrocardiogram Risk Engine addresses this critical issue by providing a r
 3. **Classification and Analysis:** The Vision Transformer (ViT) model analyzes ECG images, providing detailed classification and justification for each diagnosis.
 4. **Evaluation:** The engine undergoes rigorous evaluation using labeled datasets to ensure high accuracy and reliability.
 
+
 ## Model Outputs
 ![alt text](output1.jpeg)
 ![alt text](output2.jpeg)
 ![alt text](output3.jpeg)
+
 
 ## Getting Started
 
@@ -118,5 +120,6 @@ For more information, please contact:
 - Vishal Seelam
 - Email: vishalseelam@example.com
 - GitHub: [vishalseelam](https://github.com/vishalseelam)
+
 
 
