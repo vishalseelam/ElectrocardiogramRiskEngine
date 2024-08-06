@@ -15,8 +15,8 @@ The Electrocardiogram Risk Engine addresses this critical issue by providing a r
 
 ## Key Features
 
-- **High Accuracy:** Achieves 99% accuracy across various classifications, surpassing existing models with a 96% accuracy rate.
-- **Data-Driven Insights:** Utilizes ECG data to assist in risk assessment, premium calculation, and claims management for insurance providers.
+- **High Accuracy:** Achieves 98% accuracy across various classifications, surpassing existing models with a 96% accuracy rate.
+- **Data-Driven Insights:** Utilizes ECG data to assist in risk assessment.
 - **Advanced Model Architecture:** Employs Vision Transformer (ViT) technology enhanced with additional attention layers for superior performance.
 - **Comprehensive Dataset:** Analyzes diverse ECG images, capturing a wide range of heart conditions.
 
@@ -24,20 +24,19 @@ The Electrocardiogram Risk Engine addresses this critical issue by providing a r
 
 - **Integration of Vision Transformer (ViT):** Successfully integrated ViT, fine-tuning it with attention layers to achieve a groundbreaking 99% accuracy in ECG classification.
 - **Utilization of Anthropic Claude SONNET Model:** Utilized Anthropic Claude SONNET via Amazon Bedrock to provide detailed decision-making and justification for each ECG diagnosis.
-- **Significant Accuracy Improvement:** Improved classification accuracy from 70% to 99% through innovative model enhancements, outperforming the best existing models.
+- **Significant Accuracy Improvement:** Improved classification accuracy from 70% to 98% through innovative model enhancements, outperforming the best existing models.
 
 ## Importance of ECGs
 
 - **Preventive Healthcare:** Early detection of heart conditions through ECG can lead to a 15-20% reduction in overall healthcare costs due to preventive measures and early treatment.
-- **Accurate Risk Assessment:** ECG data improves the accuracy of risk assessments, detecting asymptomatic heart conditions in up to 5% of individuals who might otherwise be overlooked.
-- **Insurance Benefits:** ECG findings can lead to more precise policy terms, reducing fraudulent claims by up to 20% through reliable diagnosis and documentation.
+- **Accurate Risk Assessment:** ECG data improves the accuracy of risk assessments, detecting asymptomatic heart conditions in up to 5% of individuals who might otherwise be overlooked. Moreover, it also allows for diagnosing ECG without a Headlth Supervisor, thereby reducing the cost of diagnosis.
 
 ## How It Works
 
 1. **Data Acquisition:** The engine uses a dataset containing ECG images classified into four categories: normal, abnormal, myocardial infarction, and COVID-19-related abnormalities.
-2. **Model Iterations:** The project iterates through various models, including ResNet 50, MobilNet, and ViT, to identify the most accurate and efficient approach.
-3. **Classification and Analysis:** The Vision Transformer (ViT) model analyzes ECG images, providing detailed classification and justification for each diagnosis.
-4. **Evaluation:** The engine undergoes rigorous evaluation using labeled datasets to ensure high accuracy and reliability.
+2. **Model Iterations:** The project iterates through various models, including ResNet 50, MobilNet, and ViT, to identify the most accurate and efficient approach. 
+3. **Classification and Analysis:** The Vision Transformer (ViT) model analyzes ECG images, providing detailed classification for each diagnosis.
+4. **Evaluation:** The result along with the base64 image is then passed to the LLM, in this case Anthropic Claude SONNET, to provide the decision and the justification for each diagnosis.
 
 
 ## Model Outputs
