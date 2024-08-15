@@ -15,7 +15,7 @@ The Electrocardiogram Risk Engine addresses this critical issue by providing a r
 
 ## Key Features
 
-- **High Accuracy:** Achieves 98% accuracy across various classifications, surpassing existing models with a 96% accuracy rate.
+- **High Accuracy:** Achieves 99% accuracy across various classifications, surpassing existing models with a 96% accuracy rate.
 - **Data-Driven Insights:** Utilizes ECG data to assist in risk assessment.
 - **Advanced Model Architecture:** Employs Vision Transformer (ViT) technology enhanced with additional attention layers for superior performance.
 - **Comprehensive Dataset:** Analyzes diverse ECG images, capturing a wide range of heart conditions.
@@ -24,7 +24,7 @@ The Electrocardiogram Risk Engine addresses this critical issue by providing a r
 
 - **Integration of Vision Transformer (ViT):** Successfully integrated ViT, fine-tuning it with attention layers to achieve a groundbreaking 99% accuracy in ECG classification.
 - **Utilization of Anthropic Claude SONNET Model:** Utilized Anthropic Claude SONNET via Amazon Bedrock to provide detailed decision-making and justification for each ECG diagnosis.
-- **Significant Accuracy Improvement:** Improved classification accuracy from 70% to 98% through innovative model enhancements, outperforming the best existing models.
+- **Significant Accuracy Improvement:** Improved classification accuracy from 70% to 98% through activation layer enhancements in ViT, outperforming the best existing models.
 
 ## Importance of ECGs
 
