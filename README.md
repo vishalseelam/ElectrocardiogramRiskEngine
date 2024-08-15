@@ -38,6 +38,8 @@ The Electrocardiogram Risk Engine addresses this critical issue by providing a r
 3. **Classification and Analysis:** The Vision Transformer (ViT) model analyzes ECG images, providing detailed classification for each diagnosis.
 4. **Evaluation:** The result along with the base64 image is then passed to the LLM, in this case Anthropic Claude SONNET, to provide the decision and the justification for each diagnosis.
 
+## Model Input Example
+![alt text](exampleInput.png)
 
 ## Model Outputs
 ![alt text](output1.jpeg)
