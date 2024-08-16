@@ -119,8 +119,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For more information, please contact:
 
 - Vishal Seelam
-- Email: vishalseelam@example.com
-- GitHub: [vishalseelam](https://github.com/vishalseelam)
+- Email: vishal.seelam@tcu.edu
 
 
 
