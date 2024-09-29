@@ -1,4 +1,4 @@
-from transformers import ViTForImageClassification, ViTConfig, ViTFeatureExtractor
+from transformers import ViTForImageClassification, ViTConfig, ViTImageProcessor
 import torch
 from PIL import Image
 import base64
@@ -18,7 +18,7 @@ def load_model_from_h5(model, filename):
 # Load the model
 load_model_from_h5(model, '/Users/vishalseelam/Computer Science/ECG/model.h5')
 
-feature_extractor = ViTFeatureExtractor.from_pretrained('google/vit-base-patch16-224')
+feature_extractor = ViTImageProcessor.from_pretrained('google/vit-base-patch16-224')
 id_to_label = {0: 'Myocardial Infarction', 1: 'Abnormal Heartbeats', 2: 'Normal Heartbeats', 3: 'History of MI', 4: 'Covid_19'}
 
 def get_vit_prediction(image_path):

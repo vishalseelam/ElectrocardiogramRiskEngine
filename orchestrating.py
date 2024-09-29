@@ -7,15 +7,6 @@ import logging
 import time
 start = time.time()
  
-
- 
-
-
- 
-
-
-
-
 app = FastAPI()
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -33,11 +24,13 @@ def generate_response(response_data, status_code, status_message, start):
 @app.post("/api1")
 async def api1(image: UploadFile = File(...), label: str = None):
     try:
+        print(f"Received file: {image.filename}")
         start = time.time()
         image_path = f"temp_{image.filename}"
         print("image loaded successfully")
         with open(image_path, "wb") as f:
             f.write(image.file.read())
+        print(f"Image saved to: {image_path}")
         logger.info(f"Image saved to {image_path}")
         api1_response = {}
 

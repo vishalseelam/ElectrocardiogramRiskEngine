@@ -11,7 +11,7 @@ load_dotenv()  # Load environment variables from .env file
 
 AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
-AWS_SESSION_TOKEN = os.getenv("AWS_SESSION_TOKEN")
+# AWS_SESSION_TOKEN = os.getenv("AWS_SESSION_TOKEN")
 
 config = Config(read_timeout=1000)
 logger = logging.getLogger(__name__)
@@ -96,7 +96,7 @@ def get_llm_response(api1_response, prompt_type=1):
         region_name='us-east-1',
         aws_access_key_id=AWS_ACCESS_KEY_ID,
         aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
-        aws_session_token=AWS_SESSION_TOKEN,
+        # aws_session_token=AWS_SESSION_TOKEN,
         config=config
     )
     model_id = modelId
